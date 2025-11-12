@@ -111,15 +111,7 @@ export default function HomePage() {
       <Navbar />
 
       <section className="relative text-white overflow-hidden min-h-screen flex items-center">
-        <div className="absolute inset-0">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url("/cworking bg.png")`
-            }}
-          ></div>
-          <div className="absolute inset-0 bg-gradient-to-br from-blue-600/70 via-blue-500/65 to-blue-700/70"></div>
-        </div>
+        <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-500 to-blue-700"></div>
         <div className="container relative mx-auto px-4 py-32 md:py-40">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
