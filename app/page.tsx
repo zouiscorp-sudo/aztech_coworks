@@ -9,7 +9,7 @@ import { Navbar } from '@/components/layout/navbar';
 import { Footer } from '@/components/layout/footer';
 import { supabase } from '@/lib/supabase/client';
 import { Database } from '@/lib/types/database';
-import { MapPin, Users, Clock, Search, Briefcase, Coffee, Building, Calendar, ChevronDown } from 'lucide-react';
+import { MapPin, Users, Clock, Search, Briefcase, Coffee, Building, Calendar, ChevronDown, Star, Quote } from 'lucide-react';
 import SpaceCard from '@/components/spaces/space-card';
 
 type Location = Database['public']['Tables']['locations']['Row'];
@@ -373,6 +373,234 @@ export default function HomePage() {
                 View All Workspaces
               </Button>
             </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-50 overflow-hidden">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+              Trusted by Leading Indian Companies
+            </h2>
+            <p className="text-gray-600 text-lg">
+              Join thousands of businesses that trust us for their workspace needs
+            </p>
+          </div>
+
+          <div className="relative">
+            <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
+            <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-gray-50 to-transparent z-10"></div>
+
+            <div className="flex overflow-hidden">
+              <div className="flex animate-scroll">
+                <div className="flex items-center gap-16 px-8">
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-blue-600">TCS</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-red-600">Infosys</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-purple-600">Wipro</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-orange-600">HDFC Bank</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-red-700">Mahindra</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-blue-700">Reliance</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-green-600">Tata Group</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-yellow-600">Flipkart</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-indigo-600">Tech Mahindra</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-pink-600">Zomato</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-16 px-8">
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-blue-600">TCS</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-red-600">Infosys</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-purple-600">Wipro</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-orange-600">HDFC Bank</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-red-700">Mahindra</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-blue-700">Reliance</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-green-600">Tata Group</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-yellow-600">Flipkart</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-indigo-600">Tech Mahindra</span>
+                  </div>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
+                    <span className="text-2xl font-bold text-pink-600">Zomato</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-3">
+              What Our Clients Say
+            </h2>
+            <p className="text-gray-600 text-lg">
+              Hear from businesses that transformed their workspace experience
+            </p>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                The workspace solutions provided have been exceptional. Our team productivity has increased significantly since we moved to their coworking space in Coimbatore.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-lg">
+                  RK
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Rajesh Kumar</p>
+                  <p className="text-sm text-gray-600">CEO, TechStart Solutions</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Excellent facilities and professional environment. The flexible booking system makes it easy to scale our workspace needs as our business grows.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-green-600 flex items-center justify-center text-white font-bold text-lg">
+                  PS
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Priya Sharma</p>
+                  <p className="text-sm text-gray-600">Founder, Digital Marketing Hub</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Perfect for our remote team! The meeting rooms are well-equipped and the location is convenient. Highly recommend for startups and SMEs.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center text-white font-bold text-lg">
+                  AM
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Arun Murugan</p>
+                  <p className="text-sm text-gray-600">Director, Innovation Labs</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Amazing workspace with all modern amenities. The community here is supportive and the networking opportunities are invaluable for our business growth.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold text-lg">
+                  SK
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Sneha Krishnan</p>
+                  <p className="text-sm text-gray-600">Co-Founder, FinTech Ventures</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                Cost-effective and professional. We've been using their private offices for 6 months and couldn't be happier with the service and support provided.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold text-lg">
+                  VR
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Vikram Reddy</p>
+                  <p className="text-sm text-gray-600">Managing Partner, Consulting Group</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 p-8 border border-gray-100">
+              <div className="flex items-center gap-1 mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                ))}
+              </div>
+              <Quote className="w-10 h-10 text-blue-600 mb-4 opacity-20" />
+              <p className="text-gray-700 mb-6 leading-relaxed">
+                The best coworking space in the region! Clean, modern, and the staff is always helpful. It's become our second home for business operations.
+              </p>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 rounded-full bg-teal-600 flex items-center justify-center text-white font-bold text-lg">
+                  MP
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-900">Meera Patel</p>
+                  <p className="text-sm text-gray-600">CEO, Creative Studios</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
