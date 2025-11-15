@@ -395,67 +395,147 @@ export default function HomePage() {
             <div className="flex overflow-hidden">
               <div className="flex animate-scroll">
                 <div className="flex items-center gap-16 px-8">
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-blue-600">TCS</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/95/TCS_Logo.svg"
+                      alt="TCS"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-red-600">Infosys</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg"
+                      alt="Infosys"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-purple-600">Wipro</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg"
+                      alt="Wipro"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-orange-600">HDFC Bank</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg"
+                      alt="HDFC Bank"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-red-700">Mahindra</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/3/38/Mahindra_and_Mahindra_Logo.svg"
+                      alt="Mahindra"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-blue-700">Reliance</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Reliance_Industries_Logo.svg"
+                      alt="Reliance"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-green-600">Tata Group</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg"
+                      alt="Tata Group"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-yellow-600">Flipkart</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flipkart.svg"
+                      alt="Flipkart"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-indigo-600">Tech Mahindra</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Tech_Mahindra_New_Logo.svg"
+                      alt="Tech Mahindra"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-pink-600">Zomato</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/7/74/Zomato_logo.svg"
+                      alt="Zomato"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                 </div>
                 <div className="flex items-center gap-16 px-8">
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-blue-600">TCS</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/95/TCS_Logo.svg"
+                      alt="TCS"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-red-600">Infosys</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/9/95/Infosys_logo.svg"
+                      alt="Infosys"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-purple-600">Wipro</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg"
+                      alt="Wipro"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-orange-600">HDFC Bank</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg"
+                      alt="HDFC Bank"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-red-700">Mahindra</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/3/38/Mahindra_and_Mahindra_Logo.svg"
+                      alt="Mahindra"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-blue-700">Reliance</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Reliance_Industries_Logo.svg"
+                      alt="Reliance"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-green-600">Tata Group</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Tata_logo.svg"
+                      alt="Tata Group"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-yellow-600">Flipkart</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/4/42/Flipkart.svg"
+                      alt="Flipkart"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-indigo-600">Tech Mahindra</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Tech_Mahindra_New_Logo.svg"
+                      alt="Tech Mahindra"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
-                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow">
-                    <span className="text-2xl font-bold text-pink-600">Zomato</span>
+                  <div className="flex items-center justify-center w-48 h-24 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow p-6">
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/7/74/Zomato_logo.svg"
+                      alt="Zomato"
+                      className="w-full h-full object-contain"
+                    />
                   </div>
                 </div>
               </div>
